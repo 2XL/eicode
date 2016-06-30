@@ -24,9 +24,9 @@ def main():
         maturing = initial
         initial = mature
         mature = mature + maturing
-        total = initial + maturing
         # print "{} min => {}".format(idx, total)
         idx+=1
+    total = initial + maturing
     print total
     print ""
     f.close()
